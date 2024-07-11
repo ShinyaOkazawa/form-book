@@ -17,6 +17,7 @@
     "vue": "latest"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.8.3",
     "@histoire/plugin-nuxt": "^0.17.17",
     "@histoire/plugin-vue": "^0.17.17",
     "histoire": "^0.17.17"
