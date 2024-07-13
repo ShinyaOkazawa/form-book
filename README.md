@@ -1,75 +1,11 @@
-# Nuxt 3 Minimal Starter
+# Form Design Book
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Formatter
 
-## Setup
+Biome を導入しているが、vue ファイルのフォーマットは script タグのみサポートされている。
+[参考](https://biomejs.dev/ja/internals/language-support/#html%E6%8B%A1%E5%BC%B5%E8%A8%80%E8%AA%9E%E3%81%AE%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88)
 
-Make sure to install the dependencies:
+Biome が vue の template タグをサポートするまでは下記の構成でコードフォーマットを行う。
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- vue ファイル（[vscode の Vue オフィシャル拡張機能](https://marketplace.visualstudio.com/items?itemName=Vue.volar)）
+- vue ファイル以外（Biome）
