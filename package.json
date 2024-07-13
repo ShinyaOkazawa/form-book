@@ -11,7 +11,7 @@
     "story:dev": "histoire dev",
     "story:build": "histoire build",
     "story:preview": "histoire preview",
-    "check": "pnpm biome check --write"
+    "check": "biome check --write"
   },
   "dependencies": {
     "nuxt": "^3.12.3",
